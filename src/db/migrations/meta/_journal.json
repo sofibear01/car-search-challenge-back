@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1735855545964,
+      "tag": "0000_calm_silver_sable",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1735865333814,
+      "tag": "0001_silent_angel",
+      "breakpoints": true
+    }
+  ]
+}
