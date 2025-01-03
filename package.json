@@ -11,7 +11,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
