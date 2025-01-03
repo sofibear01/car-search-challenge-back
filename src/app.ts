@@ -20,7 +20,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
     cors({
-        origin: "http://localhost:5173", // Define explícitamente el origen permitido
+        origin: process.env.FRONT_URL, // Define explícitamente el origen permitido
         credentials: true, // Habilita el envío de cookies o credenciales
         methods: ["GET", "POST", "PUT", "DELETE"], // Define los métodos permitidos
         allowedHeaders: ["Content-Type", "Authorization"], // Define los headers permitidos
