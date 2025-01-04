@@ -1,15 +1,11 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "*.js",
-        "use": "@vercel/node"
-      }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/api" }
     ],
-    "routes": [
+     "routes": [
       {
          "src": "/(.*)",
-         "dest": "/api",
+         "dest": "/",
           "methods": ["GET","POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
           "headers": {
              "Access-Control-Allow-Origin": "*",
