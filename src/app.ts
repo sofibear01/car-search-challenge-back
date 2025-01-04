@@ -20,7 +20,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
     cors({
-        origin: "*", // Define explícitamente el origen permitido
+        origin: "https://car-search-challenge-front.vercel.app/", // Define explícitamente el origen permitido
         credentials: true, // Habilita el envío de cookies o credenciales
         methods: ["GET", "POST", "PUT", "DELETE"], // Define los métodos permitidos
         allowedHeaders: ["Content-Type", "Authorization"], // Define los headers permitidos
